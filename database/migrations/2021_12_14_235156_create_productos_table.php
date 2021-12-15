@@ -17,15 +17,17 @@ class CreateProductosTable extends Migration
             $table->id();
             $table->string('nombre');
             $table->string('marca');
-            $table->string('lote');
+            $table->integer('lote');
             $table->string('descripccion');
-            $table->string('id_categoria');
+            $table->biginteger('categoria_id')->unsigned();
             $table->string('codigo');
             $table->string('existencias');
-            $table->string('precio');
-            $table->string('precion_comercial');
-            $table->string('fecha_de_caducidad');
+            $table->double('precio');
+            $table->double('precion_comercial');
+            $table->date('fecha_de_caducidad');
             $table->timestamps();
+
+            $table->foreign('categoria_id')->references('id')->on('categorias');
         });
     }
 

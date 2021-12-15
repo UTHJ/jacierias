@@ -12,8 +12,8 @@
             <div class="col-md">
                 <div class="card">
                     <div class="card-body">
-                        PRODUTOS
-                        <a type="button" href="{{route('productos.crear')}}" class="btn btn-outline-primary btn-sm float-right">Crear Producto</a>
+                        CATEGORIAS
+                        <a type="button" href="{{route('categoria.crear')}}" class="btn btn-outline-primary btn-sm float-right">Crear Categorias</a>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
 @stop
 
 @section('content')
-    <h1>Lista de Productos</h1>
+    <h1>Lista de Categorias</h1>
     <div class="card">
         <div class="card-body">
             <table id="example" class="table table-striped table-bordered" style="width:100%">
@@ -83,9 +83,6 @@
             </table>
         </div>
     </div>
-
-
-
 
 
 

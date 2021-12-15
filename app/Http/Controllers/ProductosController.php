@@ -83,4 +83,38 @@ class ProductosController extends Controller
     {
         //
     }
+
+    public function categoria_listar()
+    {
+        return view('categoria.categorias');
+    }
+
+    public function categoria_crear()
+    {
+
+    }
+
+    public function categoria_eliminar()
+    {
+
+    }
+
+    public function categoria_editar()
+    {
+
+    }
+
+    public function categoria_guardar()
+    {
+
+    }
+
+    public function categoria_actualizar()
+    {
+
+    }
+    public function categoria_mostrar()
+    {
+
+    }
 }

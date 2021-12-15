@@ -32,3 +32,11 @@ Route::get('productos/mostrar','ProductosController@mostrar')->name('productos.m
 Route::post('productos/editar','ProductosController@editar')->name('productos.editar');
 Route::post('productos/actualizar','ProductosController@actualizar')->name('productos.actualizar');
 Route::post('productos/eliminar','ProductosController@eliminar')->name('productos.eliminar');
+
+Route::get('categoria/listar','ProductosController@categoria_listar')->name('categoria.listar');
+Route::get('categoria/crear','ProductosController@categoria_crear')->name('categoria.crear');
+Route::post('categoria/guardar','ProductosController@categoria_guardar')->name('categoria.guardar');
+Route::get('categoria/mostrar','ProductosController@categoria_mostrar')->name('categoria.mostrar');
+Route::post('categoria/editar','ProductosController@categoria_editar')->name('categoria.editar');
+Route::post('categoria/actualizar','ProductosController@categoria_actualizar')->name('categoria.actualizar');
+Route::post('categoria/eliminar','ProductosController@categoria_eliminar')->name('categoria.eliminar');

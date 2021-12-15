@@ -273,6 +273,10 @@ return [
                     'route'  => 'productos.listar',
                 ],
                 [
+                    'text' => 'Categorias',
+                    'route'  => 'categoria.listar',
+                ],
+                [
                     'text'    => 'level_one',
                     'url'     => '#',
                     'submenu' => [
@@ -296,10 +300,7 @@ return [
                         ],
                     ],
                 ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
+
             ],
         ],
         ['header' => 'labels'],

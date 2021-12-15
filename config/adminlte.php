@@ -248,7 +248,7 @@ return [
         ],
         [
             'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'route'         => 'home',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
@@ -265,12 +265,12 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text'    => 'multilevel',
+            'text'    => 'MENU',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url'  => '#',
+                    'text' => 'Productos',
+                    'route'  => 'productos.listar',
                 ],
                 [
                     'text'    => 'level_one',
